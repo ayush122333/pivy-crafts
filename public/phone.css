@@ -1,0 +1,132 @@
+#home {
+  height: 250px;
+  padding: 3px 20px;
+}
+#home::before {
+  height: 350px;
+  width: 100%;
+}
+.h-prim {
+  font-size: 1.5rem;
+  padding: 20px 0px;
+}
+.h-secondary {
+  font-size: 1.2rem;
+}
+#home p {
+  font-size: 0.7rem;
+  line-height: 1.1rem;
+}
+
+.btn {
+  margin-top: 12px;
+  padding: 3px 6px;
+  font-size: 8px;
+}
+
+#services {
+  flex-direction: column;
+}
+
+#services-container {
+  height: 850px;
+}
+
+#services {
+  margin: auto 62px;
+}
+#services .box {
+  height: 210px;
+}
+#services p {
+  font-size: 10px;
+}
+
+#services .box img {
+  height: 100px;
+  width: 200px;
+}
+
+#navbar {
+  flex-direction: column;
+  font-size: 12px;
+}
+#navbar::before {
+  width: 100%;
+}
+#navbar ul {
+  margin: auto 0px;
+}
+#navbar ul li a {
+  padding: 4px 6px;
+}
+#navbar ul li {
+  margin: 0.8rem;
+}
+#logo {
+  margin: auto;
+}
+#logo img {
+  height: 40px;
+  width: 40px;
+}
+#clients .box img {
+  height: 50px;
+  width: 50px;
+  border-radius: 4rem;
+}
+#clients {
+  margin: 25px 10px;
+  flex-wrap: wrap;
+}
+#clients-cont {
+  margin-top: 25px;
+  height: 346px;
+  width: 100%;
+}
+#clients-cont::before {
+  height: 345px;
+  width: 100%;
+}
+
+#contact-form {
+  height: 370px;
+}
+#contact-form::before {
+  height: 370px;
+}
+
+#form {
+  height: 200px;
+  width: 275px;
+}
+#contact-form form input {
+  width: 150px;
+  margin: 0px;
+  font-size: 0.5rem;
+}
+#contact-form form {
+  font-size: 0.8rem;
+  width: 230px;
+  padding: 8px 0px;
+}
+#contact-form .h-secondary {
+  font-size: 12px;
+  padding: 7px;
+}
+#contact-form .btn2 {
+  padding: 2px 5px;
+  font-size: 10px;
+  margin-top: 15px;
+}
+
+#foot p {
+  font-size: 10px;
+}
+#foot #contact p {
+  font-size: 8px;
+}
+#foot #contact {
+  position: relative;
+  margin: 0px;
+}
