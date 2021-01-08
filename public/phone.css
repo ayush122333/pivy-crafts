@@ -3,6 +3,10 @@
   padding: 3px 20px;
 }
 #home::before {
+  background: url("/pivycrafts/public/bg7.jpg") no-repeat center center/cover;
+  background-position: center;
+  opacity: 0.7;
+  transform: scale(1);
   height: 350px;
   width: 100%;
 }

@@ -223,7 +223,7 @@
 }
 #contact-form::before {
   content: "";
-  background: url("/project1/contact.jpg") no-repeat center/cover;
+  background: url("contact.jpg") no-repeat center/cover;
   position: absolute;
   z-index: -1;
   height: 628px;
