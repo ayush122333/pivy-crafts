@@ -1,3 +1,7 @@
+body {
+  height: 100%;
+}
+
 #home {
   height: 250px;
   padding: 3px 20px;
@@ -7,7 +11,7 @@
   background-position: center;
   opacity: 0.7;
   transform: scale(1);
-  height: 350px;
+  height: 300px;
   width: 100%;
 }
 .h-prim {
@@ -51,21 +55,56 @@
   width: 200px;
 }
 
-#navbar {
+.ham {
+  position: absolute;
+  right: 8%;
+  top: 30%;
+  cursor: pointer;
+  z-index: 2;
+}
+.line {
+  height: 3px;
+  width: 30px;
+  background: white;
+  margin: 5px;
+}
+
+.navbar {
   flex-direction: column;
+  position: relative;
   font-size: 12px;
 }
-#navbar::before {
+.navbar::before {
   width: 100%;
 }
-#navbar ul {
+
+.nav-links {
+  border: 1px solid black;
   margin: auto 0px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: teal;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  clip-path: circle(100px at 90% -20%);
+  -webkit-clip-path: circle(100px at 90% -20%);
+  transition: all 1s ease-out;
 }
-#navbar ul li a {
+body.overflow {
+  overflow: hidden;
+}
+.nav-links.open {
+  clip-path: circle(1300px at 90% -20%);
+  -webkit-clip-path: circle(1300px at 90% -20%);
+}
+
+.nav-links li a {
   padding: 4px 6px;
 }
-#navbar ul li {
-  margin: 0.8rem;
+.nav-links li {
+  margin: 1.8rem;
 }
 #logo {
   margin: auto;
@@ -91,6 +130,8 @@
 #clients-cont::before {
   height: 345px;
   width: 100%;
+  background: url("/pivycrafts/public/bg2.jpg") no-repeat center center/cover;
+  transform: scale(1);
 }
 
 #contact-form {

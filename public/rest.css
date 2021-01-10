@@ -18,12 +18,12 @@
   transform: scale(1.2);
 }
 
-#navbar {
+.navbar {
   display: flex;
   font-size: 20px;
   position: relative;
 }
-#navbar::before {
+.navbar::before {
   content: "";
   background-color: black;
   position: absolute;
@@ -34,25 +34,25 @@
   z-index: -1;
 }
 
-#navbar ul {
+.nav-links {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto 65px;
 }
 
-#navbar ul li {
+.nav-links li {
   margin: 15px;
   list-style: none;
 }
-#navbar ul li a {
+.nav-links li a {
   padding: 10px 5px;
   text-decoration: none;
   color: white;
   border-radius: 5px;
 }
 
-#navbar ul li a:hover {
+.nav-links li a:hover {
   background-color: whitesmoke;
   color: black;
 }
