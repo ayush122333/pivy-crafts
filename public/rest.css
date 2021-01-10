@@ -91,7 +91,7 @@
 }
 #home::before {
   content: "";
-  background: url("bg7.jpg") no-repeat center center/cover;
+  background: url("bg7.webP") no-repeat center center/cover;
   background-attachment: fixed;
   position: absolute;
   height: 585px;
@@ -182,7 +182,7 @@
   content: "";
   position: absolute;
   height: 400px;
-  background: url("bg2.jpg") no-repeat center center/cover;
+  background: url("bg2.webP") no-repeat center center/cover;
   background-attachment: fixed;
   height: 440px;
   width: 100%;
@@ -224,7 +224,7 @@
 }
 #contact-form::before {
   content: "";
-  background: url("contact.jpg") no-repeat center/cover;
+  background: url("contact.webP") no-repeat center/cover;
   position: absolute;
   z-index: -1;
   height: 628px;

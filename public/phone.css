@@ -7,7 +7,7 @@ body {
   padding: 3px 20px;
 }
 #home::before {
-  background: url("bg7.jpg") no-repeat center center/cover;
+  background: url("bg7.webP") no-repeat center center/cover;
   background-position: center;
   opacity: 0.7;
   transform: scale(1);
@@ -130,7 +130,7 @@ body.overflow {
 #clients-cont::before {
   height: 345px;
   width: 100%;
-  background: url("/pivycrafts/public/bg2.jpg") no-repeat center center/cover;
+  background: url("bg2.webP") no-repeat center center/cover;
   transform: scale(1);
 }
 
