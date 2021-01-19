@@ -123,14 +123,16 @@ body {
   display: flex;
   flex-direction: column;
   position: fixed;
-  background-color: teal;
+  background-color: black;
   z-index: 1;
   height: 100%;
   width: 100%;
   clip-path: circle(100px at 90% -20%);
   -webkit-clip-path: circle(100px at 90% -20%);
   transition: all 1s ease-out;
+  font-size: 1.5rem;
 }
+
 body.overflow {
   overflow: hidden;
 }
